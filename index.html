@@ -16,15 +16,25 @@
 </head>
 
 <body>
+
+  <!-- Container -->
   <header>
     <h1>Password Generator</h1>
   </header>
-  <h2>Generate a Password</h2>
-  <textarea readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
-  <button id="generate">Generate Password</button>
-  <button id="copy">
-    Copy to Clipboard
-  </button>
+
+  <form>
+    <h2>Generate a Password</h2>
+    <hr>
+      
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Your Secure Password">
+      </div>
+    <hr>
+      
+      <button type="submit" class="btn btn-primary">Generate Password</button>
+      <button type="button" class="btn btn-secondary">Copy to Clipboard</button>
+    </form>
 
 
 
