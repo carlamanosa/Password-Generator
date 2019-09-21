@@ -1,0 +1,38 @@
+
+
+body {
+    background-color: rgb(238, 235, 235);
+}
+
+
+/* Password Generator Heading */
+h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+/* Generate a Password Heading */
+
+h2 {
+    font-size: 20px;
+}
+.card {
+    margin: 0 auto;
+    margin-top: 35px;
+    border: 2px solid rgb(230, 229, 229);
+
+}
+
+.form-card{
+    border: 2px solid rgb(230, 229, 229); 
+    padding: 23px;
+    border-radius: 5px;
+}
+
+
+/* Your Secure Password Box/ Input text box */
+#exampleInputPassword1 {
+    height: 120px;
+    border-style: dashed;
+}
