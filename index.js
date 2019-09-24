@@ -33,7 +33,7 @@ function copyClipboard () {
     let textarea = document.getElementById("exampleInputPassword1");
     textarea.select();
     textarea.setSelectionRange(0, 99999);
-    document.execCommand('copy');
+    document.execCommand("copy");
 }
 
 copyButtonElem.addEventListener("click",copyClipboard());
