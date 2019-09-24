@@ -28,13 +28,13 @@
             <h2>Generate a Password</h2>
             <hr>
 
-            <div class="form-group">
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Your Secure Password">
+            <div class="container">
+              <span type="text" class="form-control" id="exampleInputPassword1" placeholder="Your Secure Password"></span>
             </div>
             <hr>
 
-            <button type="submit" class="btn btn-primary">Generate Password</button>
-            <button type="button" class="btn btn-secondary">Copy to Clipboard</button>
+            <button type="submit" class="btn btn-primary" id="passwordbutton" onclick="generatePassword()">Generate Password</button>
+            <button type="button" class="btn btn-secondary" id="copybutton" onclick="copyClipboard()">Copy to Clipboard</button>
           </form>
 
         </div>
