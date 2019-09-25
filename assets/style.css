@@ -1,0 +1,62 @@
+
+
+body {
+    background-color: rgb(238, 235, 235);
+}
+
+
+/* Password Generator Heading */
+h1 {
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+
+
+/* Generate a Password Heading */
+
+h2 {
+    font-size: 20px;
+}
+.card {
+    margin: 0 auto;
+    margin-top: 35px;
+    border: 2px solid rgb(230, 229, 229);
+
+}
+
+.form-card{
+    border: 2px solid rgb(230, 229, 229); 
+    padding: 23px;
+    padding-top: 30px;
+    border-radius: 5px;
+    
+}
+
+
+/* Your Secure Password Box/ Input text box */
+#exampleInputPassword1 {
+    height: 120px;
+    border-style: dashed;
+}
+
+/* Button */
+
+.btn-primary{
+   background-color: red; 
+   border-radius: 25px;
+   font-size: 16px;
+   margin-right: 130px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(241, 178, 178);
+    color: white;
+}
+
+.btn-secondary {
+    background-color: lightgrey;
+    border-radius: 25px;
+    font-size: 16px;
+    border: none;
+}
